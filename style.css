@@ -1,0 +1,170 @@
+/*CSS KODLARI BURADA OLACAK.*/
+/*Sayfayı en baştan kendi ölçülerimizle yapacağımız için her şeyi sıfırlıyoruz.*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(15, 252, 125);
+    
+}
+#sayfa{
+    width: 1000px;
+    min-height: 1050px;
+    border-style: solid;
+    border-width: 1px;
+    background-image: url("resim/r3.jpg");
+    margin: auto;  
+}
+#banner{
+    width: 798px;
+    height: 100px;
+    border-style: none;
+    border-width: 1px;
+    margin: auto;  
+}
+#logo{
+    width: 80px;
+    height: 100px;
+    border-style: none;
+    border-width: 1px;
+    background-color: rgb(241, 241, 241);
+    position: relative;
+    top:10px;
+    left:10px;
+    float: left;
+}
+#sosyalmedya{
+    width: 390px;
+    height: 40px;
+    border-style:none;
+    border-width: 1px;
+    float: right;
+    position:relative;
+    top:70px;
+    left:80px;
+}
+#anamenu{
+    width: 598px;
+    height: 40px;
+    border-style: none;
+    border-width: 1px;
+    background-color: white;
+    margin: auto; 
+   position: relative;
+   top: 10px;
+}
+#anamenu ul li{
+    border-style:solid;
+    list-style-type:none;
+    border-width: 3px;
+    border-color: rgb(247, 189, 119);
+    width: 80px;
+    border-radius:5px;
+    background-color: aliceblue;
+    float: left;
+    margin: 4px;
+    padding: 2px;
+    position: relative;
+    top: 2px;
+    left: 60px;
+    text-align: center;
+}
+#anamenu ul a{
+    text-decoration: none;
+    font-weight: bold;
+}
+#anamenu ul a:link{
+    color:hsl(0, 44%, 25%);
+}
+#anamenu ul a:visited{
+    color: rgb(65, 22, 106);
+}
+#anamenu ul a:hover{
+    color:rgb(186, 125, 116);
+}
+#anamenu ul a:active{
+    color:rgb(120, 104, 74);
+}
+#içerik{
+    width: 650px;
+    min-height:820px;
+    border-style: dotted;
+    border-width: 1px;
+    background-color: rgb(254, 239, 221);
+    float: left;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 50px;
+   
+    
+}
+#yanmenu{
+    width: 210px;
+    min-height:820px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgba(247, 162, 58, 0.521);
+    float: left;
+    
+    position: relative;
+    left: 70px;
+    top: 30px;
+    
+    
+}
+#res{
+    float: left;
+    height: 130px;
+    position: relative;
+    top: 15px;
+    left: 30px;
+    margin: 10px;;
+}
+.iç{
+    margin:5px;
+    font-size: 25px;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+#h{
+    margin:5px;
+    font-size: 15px;
+    color: rgb(68, 19, 19);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bolder;
+}
+#altmenu{
+    width: 980px;
+    height:30px;
+    border-style: dotted;
+    border-width: 1px;
+    background-color: rgb(155, 196, 199);
+    float: left;
+    margin: 1px;
+    text-align: center;
+    position: relative;
+    left: 12px;
+  
+}
+.sol{
+    height: 35px;
+    width: 35px;
+    position: relative;
+    left: 20px;
+}
+#logomm{
+    width: 180px;
+    height: 80px;
+}
+#p{
+    margin:5px;
+    font-size: 15px;
+    color: rgb(68, 19, 19);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bolder;
+}

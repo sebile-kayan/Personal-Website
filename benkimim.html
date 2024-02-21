@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+       <meta charset="utf-8">
+       <title>Sebile Kayan Resmi Web Sitesi</title>
+       <meta name="description" content="Sebile Kayan Resmi Web Sitesi">
+       <link rel="shortcut icon" type=”image/png” href="resim/r8.png"/>
+       <meta name="keywords" content="sebile,kayan,web,site,html,css,resmi">
+       <link rel="stylesheet" href="style.css"> <!--css'i başka dosyada yazacağız(external), bağladık.-->
+       <meta name="viewport" content="width=device-width,initial-scale=1,0">
+    </head>
+    <body> 
+        <div id="sayfa">   <!--Her bir bölüm vs. için div kullanıyoruz. 
+          Div etiketi, Html sayfasındaki diğer etiketleri kapsayan ve HTML sayfasını belli bölümlere ayıran bir etikettir. HTML div etiketinin özel bir anlamı yoktur.
+          Div etiketini kullandığımızda sayfamızın tarayıcıdaki görüntüsünde herhangi bir değişiklik olmaz.Div, html sayfasında bir bölüm oluşturmak istediğimizde kullanılır.
+          Her bir bölüm için başlık,logo,resim,link,footer,banner vs. div kullan yani en dıştan en içe kadar (div id="...." ) kullan bölümlere ayır görselliğe etkimez.
+          ** <div> etiketi block etikettir yani bir genişlik değeri (width) vermediğimiz sürece satırı olduğu gibi kaplar 
+          ve yükseklik olarakta içerisinde bulunan öğelerin sahip olduğu yükseklik kadar bir yüksekliğe sahip olurlar.-->
+          <!--<span> etiketi belge yada metnin bir kısmını işlemek için kullanılır.< span > bir inline elemandır(satır içi).Yani span etiketinin kapsamı içindeki elemanın kapsadığı yer kadardır.-->
+           <header id="banner">
+              <div id="logo">
+                <a href="index.html"> <img id="logomm" src="resim/kız1 (1).png" alt="logo"></a>   <!--logoya tıklayınca anasayfaya gitsin.-->
+               
+              </div>
+              <div id="sosyalmedya">
+               <a  href="https://www.linkedin.com/in/sebile-kayan-0972aa252"><img class="sol" src="resim/l6.png" alt="linkedin hesabı"></a>
+               <a  href="https://www.youtube.com/channel/UCKR7xswYz1FW--8vdMtGWNA"><img class="sol" src="resim/y1.png" alt="yotube"></a>
+               <a  href="https://www.instagram.com/sebile_kayan/"><img class="sol" src="resim/i6.png" alt=""></a>
+              </div>
+            </header>
+            <nav id="anamenu">
+              <ul>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="benkimim.html">Hakkımda</a></li>
+                <li><a href="çalışmalar.html">Çalışmalar</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+                
+              </ul>
+
+            </nav>
+            <article id="içerik">
+                 <h1 id="p">Peki Ben Kimim ?</h1>
+                 <p class="iç" >Adım Sebile. Yazılım mühendisliği öğrencisiyim. İstanbul'da yaşıyorum. Öğrenimimi Balıkesir'de yapıyorum.<br>
+                    Resim, ebru yapmayı, voleybol oynamayı severim.Yemek yemek ve seyahat etmek ise en çok sevdiğim aktivitelerdir.<br> Okuduğum bölüme gelecek olursak da 
+                    isteyerek tercih ettiğim bir bölüm değildi 2.sınıftayım ve bölümümü yeni sevmeye başladığımı söyleyebilirim. Bu site de benim
+                     uygulamalarımdan biri hem çalışıyorum hem de paylaşıyorum bu da beni çalışmaya daha çok teşvik ediyor. </p>
+                 
+                 
+            </article>
+            <aside id="yanmenu">
+                <h1 style="text-align: center;">MENÜ</h1>
+                <h2 style="color:rgb(104, 62, 6) "><a style="text-decoration: none; color: cadetblue; font-size: small;" href="index.html"> 1)Sitenin Amacı</a> </h2>
+                <h2 style="color:rgb(104, 62, 6) "><a  style="text-decoration: none; color: cadetblue; font-size: small;" href="benkimim.html">2)Ben Kimim ?</h2>
+                <h2 style="color:rgb(104, 62, 6) "><a  style="text-decoration: none; color: cadetblue; font-size: small;" href="iletisim.html">3)Bana Nasıl Ulaşabilirsiniz?</h2>
+                <h2 style="color:rgb(104, 62, 6) "><a  style="text-decoration: none; color: cadetblue; font-size: small;" href="çalışmalar.html">4)Sertifikalar ve Projelerim</h2>
+              
+
+            </aside>
+            <footer id="altmenu">
+              Tüm Hakları Saklıdır.
+            </footer>
+        </div>
+       
+    </body>
+</html>
